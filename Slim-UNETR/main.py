@@ -176,7 +176,7 @@ def val_one_epoch(
 if __name__ == "__main__":
     # load yml
     config = EasyDict(
-        yaml.load(open("/kaggle/working/Slim-UNETR/config.yml", "r", encoding="utf-8"), Loader=yaml.FullLoader)
+        yaml.load(open("/kaggle/working/BRATS/Slim-UNETR/config.yml", "r", encoding="utf-8"), Loader=yaml.FullLoader)
     )
     if config.is_brats2021 == True:
         config = config.brats2021
