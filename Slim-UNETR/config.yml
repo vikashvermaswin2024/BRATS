@@ -3,7 +3,7 @@ is_brain2019: False
 is_hepatic_vessel2021: False
 
 brats2021:
-  data_root: /kaggle/working/BraTS2021_Training_Data
+  data_root: /kaggle/working/
   trainer:
     num_epochs: 300
     warmup: 5
